@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import Homepage from "../components/homepage";
 
 const router = createBrowserRouter([
   {
@@ -7,7 +8,7 @@ const router = createBrowserRouter([
       {
         index: true,
         path: "/",
-        // element: <Dashboard />,
+        element: <Homepage />,
       },
     ],
   },
