@@ -1,6 +1,21 @@
+@import url("helvetica-neue.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --talentmal-color-one: #303030;
+    --talentmal-color-two: #919191;
+    --talentmal-color-three: #232323;
+    --talentmal-color-four: #E9E9E9;
+    --talentmal-color-five: #151515;
+    --talentmal-color-six: #F7F6F4;
+    --talentmal-color-seven: #E1E1E1;
+    --talentmal-color-eight: #E1E1E1;
+    --talentmal-color-nine: #707070;
+    --talentmal-color-ten: #D9D9D9;
+  }
 
 body {
   font-family: "Helvetica Neue", sans-serif;
