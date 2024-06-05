@@ -1,0 +1,37 @@
+/**
+ * @license
+ *
+ * Font Family: Helvetica Neue
+ * Designed by: Frode Helland
+ * URL: https://www.fontshare.com/fonts/general-sans
+ * © 2022 Indian Type Foundry
+ *
+ * Font Styles:
+ * Helvetica Neue Ultra Light Italic
+ * Helvetica Neue Ultra Light
+ * Helvetica Neue Thin Italic
+ * Helvetica Neue Thin Italic
+ * Helvetica Neue Roman
+ * Helvetica Neue Italic
+ * Helvetica Neue Medium
+ * Helvetica Neue Medium Italic
+ * Helvetica Neue Light
+ * Helvetica Neue Light Italic
+ * Helvetica Neue Italic
+ * Helvetica Neue Heavy Italic
+ * Helvetica Neue Heavy
+ * Helvetica Neue Bold Italic
+ * Helvetica Neue Bold
+ * Helvetica Neue Black Italic
+ * Helvetica Neue Black
+*/
+
+@font-face {
+    font-family: "HelveticaNeueUltraLightItalic";
+    src: url("/fonts/GeneralSans-Variable.woff2") format("woff2"),
+      url("/fonts/GeneralSans-Variable.woff") format("woff"),
+      url("/fonts/GeneralSans-Variable.ttf") format("truetype");
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+  }
