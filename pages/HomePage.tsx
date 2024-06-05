@@ -1,9 +1,15 @@
-import React from 'react'
+import Navbar from "../src/components/Navbar";
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
-  )
-}
+    <main className="container mx-auto">
+      <>
+        <Navbar />
+      </>
 
-export default HomePage
+      <div></div>
+    </main>
+  );
+};
+
+export default HomePage;
