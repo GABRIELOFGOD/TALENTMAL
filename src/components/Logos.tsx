@@ -17,18 +17,17 @@ const Logos = () => {
       </h2>
 
       <section className="flex items-center justify-between mt-10">
-        <img src={Icon1} alt="" className="w-[4.7rem]" />
-        <img src={Icon2} alt="" className="w-[4.7rem]" />
-        <img src={Icon3} alt="" className="w-[4.7rem]" />
-        <img src={Icon4} alt="" className="w-[4.7rem]" />
-        <img src={Icon5} alt="" className="w-[4.7rem]" />
-        <img src={Icon6} alt="" className="w-[4.7rem]" />
-        <img src={Icon7} alt="" className="w-[4.7rem]" />
-        <img src={Icon8} alt="" className="w-[4.7rem]" />
-        <img src={Icon9} alt="" className="w-[4.7rem]" />
-        <img src={Icon10} alt="" className="w-[4.7rem]" />
+        <img src={Icon1} alt="" className="w-[4.7rem] " />
+        <img src={Icon2} alt="" className="w-[4.7rem] " />
+        <img src={Icon3} alt="" className="w-[4.7rem] " />
+        <img src={Icon4} alt="" className="w-[4.7rem] " />
+        <img src={Icon5} alt="" className="w-[4.7rem] " />
+        <img src={Icon6} alt="" className="w-[4.7rem] " />
+        <img src={Icon7} alt="" className="w-[4.7rem] " />
+        <img src={Icon8} alt="" className="w-[4.7rem] " />
+        <img src={Icon9} alt="" className="w-[4.7rem] " />
+        <img src={Icon10} alt="" className="w-[4.7rem] " />
       </section>
-
     </main>
   );
 };
