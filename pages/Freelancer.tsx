@@ -9,7 +9,7 @@ import TestimonyCard from '../components/TestimonyCard'
 const Freelancer = () => {
   return (
     <div className=" py-10">
-      <div className="flex px-10 py-20 gap-10">
+      <div className="flex px-10 py-10 gap-10">
         <div className="">
           <p className="text-black w-fit font-normal text-[12px] rounded-full py-2 px-4 bg-bgGray bg-opacity-30">over 3 million ready-to-work creatives</p>
           <p className="text-[56px] font-semibold tracking-tighter mb-5 leading-[61.6px]">Take control of your future and explore endless possibilities.</p>
@@ -19,7 +19,7 @@ const Freelancer = () => {
       </div>
       <div className="w-full py-10 flex flex-col justify-between">
         <p className="font-bold text-center py-5 text-2xl">Why you should join our community</p>
-        <div className="flex md:grid md:grid-cols-2 px-28 justify-between gap-5 flex-wrap">
+        <div className="flex md:grid md:grid-cols-2 px-10 justify-between gap-5 flex-wrap">
           {whyJoin.map((why, i) => (
             <WhyJoinCard
               key={i}
@@ -42,7 +42,7 @@ const Freelancer = () => {
           <p className="font-bold text-center py-5 text-2xl">Why you should join our community</p>
           <p className='text-2xl text-light text-center'>Become a part of our community in three easy steps</p>
         </div>
-        <div className="flex px-28 justify-center py-10 gap-5 flex-wrap">
+        <div className="flex px-28 md:grid md:grid-cols-2 justify-center py-10 gap-5 flex-wrap">
           {talentPool.map((why, i) => (
             <WhyJoinCard
               key={i}
