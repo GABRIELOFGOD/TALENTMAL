@@ -1,5 +1,6 @@
 import Logos from "../src/components/Logos";
 import Offer from "../src/components/Offer";
+import Evaluation from "../src/components/Evaluation";
 import DiamondIcon from "../src/assets/homepage/diamond.svg";
 import PeopleIcon from "../src/assets/homepage/people-icon.svg";
 import FrameOne from "../src/assets/homepage/Frame1.svg";
@@ -57,7 +58,10 @@ const HomePage = () => {
       <section className="mt-[6rem]">
         <Offer />
       </section>
-      
+
+      <section className="mt-[6rem]">
+        <Evaluation />
+      </section>
     </main>
   );
 };

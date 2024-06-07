@@ -9,10 +9,10 @@ interface CardProps {
 const OfferCards: React.FC<CardProps> = ({ icon, title, detail }) => {
   return (
     <main>
-      <div>
+      <div className="lg:w-[31.1rem] border bg-[var(--talentmal-color-six)] rounded-[32px] p-10">
         <img src={icon} alt="" className="w-[42px]" />
-        <h1 className="text-[32px] font-bold">{title}</h1>
-        <p className="text-[20px] leading-[130%] -tracking-[1%]">{detail}</p>
+        <h1 className="text-[32px] font-black -tracking-[1px] my-3">{title}</h1>
+        <p className="text-[20px] leading-[130%] -tracking-[1px] text-[var(--talentmal-color-one)]">{detail}</p>
       </div>
     </main>
   );
