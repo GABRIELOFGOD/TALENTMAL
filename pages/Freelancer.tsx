@@ -71,6 +71,7 @@ const Freelancer = () => {
             {
               studentTestimony.map((test, i) => (
               <TestimonyCard
+                key={i}
                 name={test.name}
                 testimony={test.testimony}
                 image={test.image}
