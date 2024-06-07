@@ -2,7 +2,9 @@ import React from 'react'
 
 const FreelancerForm = () => {
   return (
-    <div>FreelancerForm</div>
+    <div>
+      <div className='freelance-form'></div>
+    </div>
   )
 }
 

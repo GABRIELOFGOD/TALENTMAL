@@ -20,3 +20,19 @@
 body {
   font-family: "Helvetica Neue", sans-serif;
 }
+
+p{
+  @apply  tracking-tighter
+}
+
+.wait::-webkit-scrollbar{
+  display: none;
+}
+
+.freelance-form{
+  background: url('/images/Pattern\ 10.png');
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}

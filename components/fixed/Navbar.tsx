@@ -1,20 +1,22 @@
-import Logo from "../assets/logos/talentmal.svg";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <main className="flex items-center justify-between lg:py-6">
-      <img src={Logo} alt="logo" className="w-[10rem]" />
+    <main className="flex items-center justify-between sticky top-0 left-0 w-full bg-white z-50 md:px-10 px-6 py-3 shadow-sm">
+      <Link className="flex gap-2 my-auto" to='/'>
+        <div className="my-auto w-12 h-12"><img className="w-full h-full" src="/images/logo.png" alt="" /></div>
+        <p className="my-auto text-xl font-semibold text-light">TalentMAL</p>
+      </Link>
 
-      <ul className="flex items-center gap-5 text-[20px] text-[var(--talentmal-color-one)]">
+      <ul className="flex items-center gap-5 text-xl text-light font-medium my-auto">
         <li>
-          <Link to="/">For Employer</Link>
+          <Link to="/employer">For Employer</Link>
         </li>
         <li>
-          <Link to="/">For Frelancers</Link>
+          <Link to="/freelancer">For Frelancers</Link>
         </li>
         <li>
-          <Link to="/">About Us</Link>
+          <Link to="/about">About Us</Link>
         </li>
       </ul>
 

@@ -1,4 +1,3 @@
-import Navbar from "../src/components/Navbar";
 import Logos from "../src/components/Logos";
 import Offer from "../src/components/Offer";
 import DiamondIcon from "../src/assets/homepage/diamond.svg";
@@ -9,10 +8,6 @@ import FrameTwo from "../src/assets/homepage/Frame2.svg";
 const HomePage = () => {
   return (
     <main className="container mx-auto">
-      <header>
-        <Navbar />
-      </header>
-
       <section className="flex items-center w-full mt-10">
         <div className="w-3/5">
           <p className="text-[12px] bg-[var(--talentmal-color-four)] w-[15.1rem] text-center rounded-full py-1">

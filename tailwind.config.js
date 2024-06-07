@@ -15,6 +15,15 @@ export default {
           xl: "0rem",
         },
       },
+      colors:{
+        'primary': '#151515',
+        'light': '#303030',
+        'gray': '#919191',
+        'bgGray': '#232323',
+        'gold': '#F6B03C',
+        'ath': '#F7F6F4',
+        'text': '#625959'
+      }
     },
   },
   plugins: [],
