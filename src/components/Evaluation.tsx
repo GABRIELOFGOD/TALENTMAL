@@ -8,7 +8,7 @@ import Frame2 from "../assets/homepage/recruiter-img.svg";
 const Evaluation = () => {
   return (
     <main >
-      <section className="w-[63.8rem] mx-auto">
+      <section className="">
         <div className="flex justify-center">
           <div className="flex items-center gap-1 justify-center w-[19.75rem] bg-[var(--talentmal-color-four)] p-2 rounded-full">
             <img src={Icon} alt="" className="w-[20px]" />
@@ -28,7 +28,7 @@ const Evaluation = () => {
         </div>
       </section>
 
-      <section className="my-[3rem] flex items-center justify-center gap-8 bg-[var(--talentmal-color-six)] px-28 pt-10 ">
+      <section className="my-[3rem] flex items-center justify-center gap-8 bg-[var(--talentmal-color-six)] pt-10 rounded-[32px]">
         <EvaluationCards
           icon={CardIcon1}
           title="Technical Assessment"

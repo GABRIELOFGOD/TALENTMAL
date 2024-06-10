@@ -13,16 +13,16 @@ import FrameTwo from "../src/assets/homepage/Frame2.svg";
 const HomePage = () => {
   return (
     <>
-      <main className="md:px-10">
-        <section className="flex items-center gap-[16rem] mt-10 overflow-hidden">
+      <main className=" md:px-10 mx-auto overflow-hidden">
+        <section className="flex items-center mt-10 justify-between">
           <div className="">
             <p className="text-[12px] bg-[var(--talentmal-color-four)] w-[15.1rem] text-center rounded-full py-1">
               over 3 million ready-to-work creative
             </p>
-            <h1 className="mt-7 lg:text-[93px] text-[var(--talentmal-color-five)] font-black w-[58.8rem] leading-[110%] -tracking-[8px]">
+            <h1 className="mt-7 md:text-[65px] text-[var(--talentmal-color-five)] font-black leading-[110%] -tracking-[4px]">
               Unlocking <br /> Potentials: Connect, <br /> Collaborate, Create
             </h1>
-            <p className="mt-7 w-[49rem] text-[22px] text-[var(--talentmal-color-one)] leading-[140%] -tracking-[1px]">
+            <p className="mt-7 max-w-[38rem] text-[18px] text-[var(--talentmal-color-one)] leading-[140%] -tracking-[1px]">
               Welcome to TalentMAL, where talent meets opportunity. Whether
               you're a forward-thinking employer seeking top-notch freelancers
               or a skilled professional looking for exciting projects, we've got
@@ -42,16 +42,16 @@ const HomePage = () => {
             </div>
           </div>
 
-          <div className=" flex relative">
+          <div className="flex">
             <img
               src={FrameOne}
               alt="image-one"
-              className="w-[21.5rem] pt-[4rem]"
+              className="w-[296px] pt-[4rem]"
             />
             <img
               src={FrameTwo}
               alt="image-two"
-              className="w-[21.5rem] absolute left-[16.8rem]"
+              className="w-[296px]"
             />
           </div>
         </section>

@@ -11,7 +11,7 @@ import Icon10 from "../assets/logos/icon10.svg";
 
 const Logos = () => {
   return (
-    <main className="w-[90rem] mx-auto">
+    <main className="w-full mx-auto">
       <h2 className="text-[23px] tracking-[1px] text-center">
         HIRE EXPERTS IN
       </h2>
