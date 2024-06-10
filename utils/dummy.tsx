@@ -32,6 +32,11 @@ export interface TesimonyProp {
   position?: string
 }
 
+export type WhatDo = {
+  heading: string,
+  text: string
+}
+
 export const whyJoin: WhyJoinProp[] = [
   {
     icon: <IoBagOutline />,
@@ -133,4 +138,35 @@ export const studentTestimony: TesimonyProp[] = [
     testimony: 'With our advisory services, we help employers figure out the type, quality & quantity of talent they need to achieve optimal productivity & success.',
     image: '/images/young.jpg'
   },
+]
+
+export const whatDoesOne: WhatDo[] = [
+  {
+    heading: 'What\'s this for?',
+    text: 'Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. '
+  },
+  {
+    heading: 'What if i am unemployed?',
+    text: 'Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. '
+  },
+  {
+    heading: 'Why does this matter?',
+    text: 'Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. '
+  },
+  {
+    heading: 'Why does this matter?',
+    text: 'Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. '
+  },
+  {
+    heading: 'What is this for?',
+    text: 'Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. '
+  },
+  {
+    heading: 'What info do you need?',
+    text: 'Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. '
+  },
+  {
+    heading: 'What happens next?',
+    text: 'Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. '
+  }
 ]
