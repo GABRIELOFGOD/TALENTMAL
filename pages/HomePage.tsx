@@ -13,7 +13,7 @@ import FrameTwo from "../src/assets/homepage/Frame2.svg";
 const HomePage = () => {
   return (
     <>
-      <main className=" md:px-10 mx-auto overflow-hidden">
+      <main className="max-w-7xl mx-auto overflow-hidden">
         <section className="flex items-center mt-10 justify-between">
           <div className="">
             <p className="text-[12px] bg-[var(--talentmal-color-four)] w-[15.1rem] text-center rounded-full py-1">
