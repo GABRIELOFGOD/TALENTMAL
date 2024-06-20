@@ -5,7 +5,7 @@ import Icon3 from "../assets/icons/icon3.svg";
 
 const Offer = () => {
   return (
-    <main>
+    <main className="">
       <section className="w-[67rem] mx-auto">
         <h1 className="text-center text-[64px] font-black -tracking-[3px] text-[var(--talentmal-color-one)]">What we offer.</h1>
         <p className="text-center text-[24px] text-[var(--talentmal-color-one)] leading-[140%] -tracking-[1px]">

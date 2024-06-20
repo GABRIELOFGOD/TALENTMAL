@@ -14,10 +14,10 @@ const EvaluationCards: React.FC<CardProps> = ({
   image,
 }) => {
   return (
-    <section className="w-[48rem] bg-[var(--talentmal-color-seven)] pt-10 pl-10 rounded-tl-[32px]">
+    <section className="max-w-[37rem] bg-[var(--talentmal-color-seven)] pt-10 pl-7 rounded-tl-[32px]">
       <img src={icon} alt="" className="w-[42px]" />
-      <h2 className="text-[28px] leading-[130%] -tracking-[1px] my-3">{title}</h2>
-      <p className="text-[20px] text-[var(--talentmal-color-one)] leading-[140%] -tracking-[1px] mb-3 w-[687px]">
+      <h2 className="text-[28px] leading-[130%] -tracking-[1px] my-2">{title}</h2>
+      <p className="text-[18px] text-[var(--talentmal-color-one)] leading-[140%] -tracking-[1px] mb-3 pr-5">
         {detail}
       </p>
       <img src={image} alt="image" />
