@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { MdOutlineMenu } from "react-icons/md";
 import { useState } from "react";
+import { IoClose } from "react-icons/io5";
 
 const Navbar = () => {
   const [navShow, setNavShow] = useState<boolean>(false)
@@ -14,25 +15,33 @@ const Navbar = () => {
 
       <ul className={`flex flex-col md:flex-row absolute md:relative ${navShow ? 'top-16' : 'top-[-1000px]'} duration-300 md:top-0 left-0 w-full md:w-fit bg-white md:bg-transparent py-10 px-20 md:py-0 md:px-0 md:items-center gap-5 text-xl text-light font-medium my-auto`}>
         <li>
-          <Link to="/employer">For Employer</Link>
+          <Link onClick={()=>setNavShow(false)} to="/employer">For Employer</Link>
         </li>
         <li>
-          <Link to="/freelancer">For Frelancers</Link>
+          <Link onClick={()=>setNavShow(false)} to="/freelancer">For Frelancers</Link>
         </li>
         <li>
-          <Link to="/about">About Us</Link>
+          <Link onClick={()=>setNavShow(false)} to="/about">About Us</Link>
         </li>
+        <div className="flex items-center gap-5 text-[17px]">
+          <button onClick={()=>setNavShow(false)} className="bg-[var(--talentmal-color-two)] text-xs md:text-base text-white py-2 px-4 md:py-3 md:px-7 rounded-full hover:scale-105 active:bg-[#818181] duration-300">
+            <Link to="/">Place a call</Link>
+          </button>
+          <button onClick={()=>setNavShow(false)} className="bg-[var(--talentmal-color-three)] text-xs md:text-base text-white py-2 px-4 md:py-3 md:px-7 rounded-full hover:scale-105 active:bg-[#111111] duration-300">
+            <Link to="/">Hire Talent</Link>
+          </button>
+        </div>
       </ul>
 
-      <div className="flex items-center gap-5 text-[17px]">
-        <button className="bg-[var(--talentmal-color-two)] text-white py-3 px-7 rounded-full hover:scale-105 active:bg-[#818181] duration-300">
+      <div className="flex items-center gap-5 text-xs md:text-[17px]">
+        <button onClick={()=>setNavShow(false)} className="bg-[var(--talentmal-color-two)] text-white py-3 px-7 rounded-full hover:scale-105 active:bg-[#818181] duration-300">
           <Link to="/">Place a call</Link>
         </button>
-        <button className="bg-[var(--talentmal-color-three)] hidden md:flex text-white py-3 px-7 rounded-full hover:scale-105 active:bg-[#111111] duration-300">
+        <button onClick={()=>setNavShow(false)} className="bg-[var(--talentmal-color-three)] text-xs md:text-base hidden md:flex text-white py-2 px-4 md:py-3 md:px-7 rounded-full hover:scale-105 active:bg-[#111111] duration-300">
           <Link to="/">Hire Talent</Link>
         </button>
         <button onClick={()=>setNavShow(!navShow)} className='flex md:hidden'>
-          <MdOutlineMenu />
+          {navShow ? <IoClose size={25} /> : <MdOutlineMenu size={25} />}
         </button>
       </div>
     </main>
