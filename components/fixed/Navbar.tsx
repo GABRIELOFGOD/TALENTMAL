@@ -15,7 +15,7 @@ const Navbar = () => {
         <p className="my-auto text-xl font-semibold text-light">TalentMAL</p>
       </Link>
 
-      <ul className={`flex flex-col md:flex-row absolute md:relative ${navShow ? 'top-16' : 'top-[-1000px]'} duration-300 md:top-0 left-0 w-full md:w-fit bg-white md:bg-transparent py-10 px-10 md:py-0 md:px-0 md:items-center gap-5 text-lg md:text-xl text-light font-medium my-auto`}>
+      <ul className={`flex flex-col md:flex-row absolute md:relative ${navShow ? 'top-16' : 'top-[-1000px]'} duration-300 md:top-0 left-0 w-full md:w-fit bg-white md:bg-transparent py-10 px-5 md:py-0 md:px-0 md:items-center gap-5 text-lg md:text-xl text-light font-medium my-auto`}>
         <li>
           <Link onClick={()=>setNavShow(false)} to="/employer">For Employer</Link>
         </li>
