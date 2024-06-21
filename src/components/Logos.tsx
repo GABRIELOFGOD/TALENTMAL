@@ -16,7 +16,7 @@ const Logos = () => {
         HIRE EXPERTS IN
       </h2>
 
-      <section className="flex items-center justify-between mt-10">
+      <section className="scroll-container mt-10">
         <img src={Icon1} alt="" className="w-[4.7rem] " />
         <img src={Icon2} alt="" className="w-[4.7rem] " />
         <img src={Icon3} alt="" className="w-[4.7rem] " />

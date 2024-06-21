@@ -44,7 +44,7 @@ const Accordion: React.FC<AccordionProps> = ({ number, title, content }) => {
               }}
             >
               <path
-                stroke="#FF8A65"
+                stroke="#000"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-miterlimit="10"
@@ -65,7 +65,7 @@ const Accordion: React.FC<AccordionProps> = ({ number, title, content }) => {
               }}
             >
               <path
-                stroke="#FF8A65"
+                stroke="#000"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-miterlimit="10"
