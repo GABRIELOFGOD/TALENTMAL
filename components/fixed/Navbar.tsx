@@ -7,8 +7,10 @@ const Navbar = () => {
   
   return (
     <main className="flex items-center justify-between sticky top-0 left-0 w-full bg-white z-50 md:px-10 px-6 py-3 shadow-sm">
-      <Link className="flex gap-2 my-auto" to='/'>
-        <div className="my-auto w-12 h-12"><img className="w-full h-full" src="/images/logo.png" alt="" /></div>
+      <Link className="flex gap-2 my-auto" to="/">
+        <div className="my-auto w-12 h-12">
+          <img className="w-full h-full" src="/images/logo.png" alt="" />
+        </div>
         <p className="my-auto text-xl font-semibold text-light">TalentMAL</p>
       </Link>
 
