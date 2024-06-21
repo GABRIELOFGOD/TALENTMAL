@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
+import { MdOutlineMenu } from "react-icons/md";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [navShow, setNavShow] = useState<boolean>(false)
+  
   return (
     <main className="flex items-center justify-between sticky top-0 left-0 w-full bg-white z-50 md:px-10 px-6 py-3 shadow-sm">
       <Link className="flex gap-2 my-auto" to='/'>
@@ -8,7 +12,7 @@ const Navbar = () => {
         <p className="my-auto text-xl font-semibold text-light">TalentMAL</p>
       </Link>
 
-      <ul className="flex items-center gap-5 text-xl text-light font-medium my-auto">
+      <ul className={`flex flex-col md:flex-row absolute md:relative ${navShow ? 'top-16' : 'top-[-1000px]'} duration-300 md:top-0 left-0 w-full md:w-fit bg-white md:bg-transparent py-10 px-20 md:py-0 md:px-0 md:items-center gap-5 text-xl text-light font-medium my-auto`}>
         <li>
           <Link to="/employer">For Employer</Link>
         </li>
@@ -24,8 +28,11 @@ const Navbar = () => {
         <button className="bg-[var(--talentmal-color-two)] text-white py-3 px-7 rounded-full hover:scale-105 active:bg-[#818181] duration-300">
           <Link to="/">Place a call</Link>
         </button>
-        <button className="bg-[var(--talentmal-color-three)] text-white py-3 px-7 rounded-full hover:scale-105 active:bg-[#111111] duration-300">
+        <button className="bg-[var(--talentmal-color-three)] hidden md:flex text-white py-3 px-7 rounded-full hover:scale-105 active:bg-[#111111] duration-300">
           <Link to="/">Hire Talent</Link>
+        </button>
+        <button onClick={()=>setNavShow(!navShow)} className='flex md:hidden'>
+          <MdOutlineMenu />
         </button>
       </div>
     </main>
