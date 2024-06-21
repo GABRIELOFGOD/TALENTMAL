@@ -4,26 +4,26 @@ import { GoRocket } from 'react-icons/go'
 const FreelancerForm = () => {
   return (
     <div>
-      <div className='freelance-form h-fit flex flex-col justify-between items-center py-16'>
-        <p className='text-[56px] text-white leading-[72.8px] text-center md:w-[1127px] font-normal'>Join our amazing community and find yourself at the center of oppourtunities</p>
+      <div className='freelance-form h-fit flex px-10 flex-col justify-between items-center py-16'>
+        <p className='md:text-[56px] text-[32px] leading-[38.4px] text-white md:leading-[72.8px] text-center md:w-[1127px] font-normal'>Join our amazing community and find yourself at the center of oppourtunities</p>
       </div>
-      <div className="flex px-10 py-10 flex-col gap-20">
+      <div className="flex px-8 py-10 flex-col gap-10 md:gap-20">
         <div className="flex flex-col md:grid md:grid-cols-2 gap-10">
           <div className="flex flex-col gap-5">
-            <p className="text-primary text-[50px] font-extrabold">Join Our Community</p>
+            <p className="text-primary md:text-[50px] text-[32px] font-extrabold">Join Our Community</p>
             <p className="text-2xl font-normal text-light">Help Us Match You with the Perfect Opportunities by Providing Your Employment Details</p>
           </div>
           <div></div>
         </div>
         <div className="flex flex-col md:grid md:grid-cols-2 gap-10">
           <div>
-            <p className="text-[40px] font-medium text-primary">What's this for?</p>
-            <p className="text-2xl font-normal text-light">Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. </p>
+            <p className="md:text-[40px] text-[32px] font-[600] text-primary">What's this for?</p>
+            <p className="md:text-2xl text-[18px] font-normal text-light">Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. </p>
           </div>
           <div className='flex flex-col gap-5'>
             <div className="flex gap-3">
               <p className="text-[18px] font-medium my-auto text-primary">1/7</p>
-              <p className="text-[40px] font-medium text-primary">Your Personal Information</p>
+              <p className="md:text-[40px] text-[32px] font-[600] text-primary">Your Personal Information</p>
             </div>
             <div className='flex flex-col md:grid md:grid-cols-2 gap-5'>
               <input placeholder='First Name' className='rounded-md border border-neutral-500 px-3 w-full h-10' type="text" />
@@ -39,13 +39,13 @@ const FreelancerForm = () => {
         </div>
         <div className="flex flex-col md:grid md:grid-cols-2 gap-10">
           <div>
-            <p className="text-[40px] font-medium text-primary">What if i am unemployed?</p>
+            <p className="md:text-[40px] text-[32px] font-[600] text-primary">What if i am unemployed?</p>
             <p className="text-2xl font-normal text-light">Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. </p>
           </div>
           <div className='flex flex-col gap-5'>
             <div className="flex gap-3">
               <p className="text-[18px] font-medium my-auto text-primary">2/7</p>
-              <p className="text-[40px] font-medium text-primary">Employment Information</p>
+              <p className="md:text-[40px] text-[32px] font-[600] text-primary">Employment Information</p>
             </div>
             <div className='flex flex-col md:grid md:grid-cols-2 gap-5'>
               <input placeholder='Annual Salary Expectation (USD)' className='rounded-md border border-neutral-500 px-3 w-full h-10' type="text" />
@@ -64,13 +64,13 @@ const FreelancerForm = () => {
         </div>
         <div className="flex flex-col md:grid md:grid-cols-2 gap-10">
           <div>
-            <p className="text-[40px] font-medium text-primary">Why does this matter?</p>
+            <p className="md:text-[40px] text-[32px] font-[600] text-primary">Why does this matter?</p>
             <p className="text-2xl font-normal text-light">Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. </p>
           </div>
           <div className='flex flex-col gap-5'>
             <div className="flex gap-3">
               <p className="text-[18px] font-medium my-auto text-primary">3/7</p>
-              <p className="text-[40px] font-medium text-primary">Area of Expertise</p>
+              <p className="md:text-[40px] text-[32px] font-[600] text-primary">Area of Expertise</p>
             </div>
             <div className="flex flex-col gap-2">
               <label className='flex gap-3' htmlFor="ui/ux">
@@ -102,13 +102,13 @@ const FreelancerForm = () => {
         </div>
         <div className="flex flex-col md:grid md:grid-cols-2 gap-10">
           <div>
-            <p className="text-[40px] font-medium text-primary">Why does this matter?</p>
+            <p className="md:text-[40px] text-[32px] font-[600] text-primary">Why does this matter?</p>
             <p className="text-2xl font-normal text-light">Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. </p>
           </div>
           <div className='flex flex-col gap-5'>
             <div className="flex gap-3">
               <p className="text-[18px] font-medium my-auto text-primary">4/7</p>
-              <p className="text-[40px] font-medium text-primary">Language or Stack</p>
+              <p className="md:text-[40px] text-[32px] font-[600] text-primary">Language or Stack</p>
             </div>
             <div className="flex flex-col gap-2">
               <label className='flex gap-3' htmlFor="ui/ux">
@@ -140,13 +140,13 @@ const FreelancerForm = () => {
         </div>
         <div className="flex flex-col md:grid md:grid-cols-2 gap-10">
           <div>
-            <p className="text-[40px] font-medium text-primary">What is this for?</p>
+            <p className="md:text-[40px] text-[32px] font-[600] text-primary">What is this for?</p>
             <p className="text-2xl font-normal text-light">Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. </p>
           </div>
           <div className='flex flex-col gap-5'>
             <div className="flex gap-3">
               <p className="text-[18px] font-medium my-auto text-primary">5/7</p>
-              <p className="text-[40px] font-medium text-primary">Resume</p>
+              <p className="md:text-[40px] text-[32px] font-[600] text-primary">Resume</p>
             </div>
             <div className='flex flex-col w-full items-center justify-center py-6 border-[1.5px] border-dashed rounded-lg border-primary'>
               <BiCloudUpload size={20} />
@@ -156,13 +156,13 @@ const FreelancerForm = () => {
         </div>
         <div className="flex flex-col md:grid md:grid-cols-2 gap-10">
           <div>
-            <p className="text-[40px] font-medium text-primary">What info do you need?</p>
+            <p className="md:text-[40px] text-[32px] font-[600] text-primary">What info do you need?</p>
             <p className="text-2xl font-normal text-light">Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. </p>
           </div>
           <div className='flex flex-col gap-5'>
             <div className="flex gap-3">
               <p className="text-[18px] font-medium my-auto text-primary">6/7</p>
-              <p className="text-[40px] font-medium text-primary">Social & Portfolio</p>
+              <p className="md:text-[40px] text-[32px] font-[600] text-primary">Social & Portfolio</p>
             </div>
             <div className='flex flex-col md:grid md:grid-cols-2 gap-5'>
               <input placeholder='Instagram' className='rounded-md border border-neutral-500 px-3 w-full h-10' type="text" />
@@ -174,13 +174,13 @@ const FreelancerForm = () => {
         </div>
         <div className="flex flex-col md:grid md:grid-cols-2 gap-10">
           <div>
-            <p className="text-[40px] font-medium text-primary">What happens next?</p>
+            <p className="md:text-[40px] text-[32px] font-[600] text-primary">What happens next?</p>
             <p className="text-2xl font-normal text-light">Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. </p>
           </div>
           <div className='flex flex-col gap-5'>
             <div className="flex gap-3">
               <p className="text-[18px] font-medium my-auto text-primary">7/7</p>
-              <p className="text-[40px] font-medium text-primary">You’re done!!!</p>
+              <p className="md:text-[40px] text-[32px] font-[600] text-primary">You’re done!!!</p>
             </div>
             <div className='flex flex-col gap-10'>
               <p className='text-2xl text-light'>Smack the button and we’ll do the rest</p>

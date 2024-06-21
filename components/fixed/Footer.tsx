@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 const Footer = () => {
   return (
     <div className='flex flex-col w-full gap-8 p-10 bg-white'>
-      <div className="flex justify-between">
+      <div className="flex flex-col md:flex-row justify-between">
         <div className="flex flex-col gap-4">
           <Link className="flex gap-2 my-auto" to='/'>
             <div className="my-auto w-12 h-12"><img className="w-full h-full" src="/images/logo.png" alt="" /></div>
@@ -22,15 +22,15 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-4">
           <p className="font-semibold text-[18px]">Join our talent pool</p>
-          <div className="flex">
-            <input type="text" className="h-12 border border-neutral-300 px-3 rounded-l-md" placeholder="Enter email to get started" />
+          <div className="flex w-full">
+            <input type="text" className="h-12 border border-neutral-300 w-full px-3 rounded-l-md" placeholder="Enter email to get started" />
             <button className="rounded-r-md px-4 font-semibold bg-black text-white h-12">
               <BsArrowRight />
             </button>
           </div>
         </div>
       </div>
-      <div className="rounded-lg bg-ath flex justify-between py-3 px-5">
+      <div className="rounded-lg bg-ath flex flex-col md:flex-row gap-5 justify-between py-3 px-5">
         <div className="flex gap-4">
           <Link className="rounded-full bg-black text-white h-8 w-8 flex justify-center items-center" to=''>
             <BsTwitterX />
