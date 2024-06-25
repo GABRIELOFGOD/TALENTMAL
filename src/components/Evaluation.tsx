@@ -8,21 +8,21 @@ import Frame2 from "../assets/homepage/recruiter-img.svg";
 const Evaluation = () => {
   return (
     <main>
-      <section className="px-2">
+      <section className="px-4">
         <div className="flex lg:justify-center">
           <div className="flex items-center gap-1 justify-center lg:w-[19.75rem] bg-[var(--talentmal-color-four)] py-2 px-4 lg:px-0 lg:py-0 lg:p-2 p-0 rounded-full">
             <img src={Icon} alt="" className="w-[12px] lg:w-[20px]" />
-            <p className="text-[9px] lg:text-[18px]">
+            <p className="text-[12px] lg:text-[18px]">
               Our talent selection method
             </p>
           </div>
         </div>
 
         <div>
-          <h1 className="lg:text-center text-[32px] lg:text-[48px] font-medium lg:font-black text-[var(--talentmal-color-one)] -tracking-[3px] leading-[130%] mt-[1rem] lg:mb-[2rem] mb-[1rem]">
+          <h1 className="lg:text-center text-[32px] lg:text-[48px] font-medium lg:font-black text-[var(--talentmal-color-one)] -tracking-[2.5px] lg:-tracking-[3px] leading-[130%] mt-[1rem] lg:mb-[2rem] mb-[1rem]">
             Our Process for Evaluating Talent.
           </h1>
-          <p className="lg:text-center lg:text-[24px] text-[14px] -tracking-[1px] leading-[130%]">
+          <p className="lg:text-center lg:text-[24px] text-[14px] lg:-tracking-[1px] leading-[130%]">
             At TalentMAL, we tailor our matching process just for you. It's all
             about flexibility and adaptability, ensuring we find the perfect fit
             that suits your unique needs.

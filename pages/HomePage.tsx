@@ -13,7 +13,7 @@ import FrameTwo from "../src/assets/homepage/Frame2.svg";
 const HomePage = () => {
   return (
     <main className="container mx-auto">
-      <section className="md:flex md:items-center w-full mt-10 px-2">
+      <section className="md:flex md:items-center w-full mt-10 px-4">
         <div className="md:w-3/5">
           <p className="text-[12px] bg-[var(--talentmal-color-four)] w-[15.1rem] text-center rounded-full py-1">
             over 3 million ready-to-work creative
@@ -24,7 +24,7 @@ const HomePage = () => {
           <h1 className="mt-3 lg:mt-7 md:hidden text-[37px] text-[var(--talentmal-color-five)] font-black leading-[38px] -tracking-[3.2px] w-full">
             Unlocking Potentials: Connect, Collaborate, Create
           </h1>
-          <p className="mt-3 lg:mt-7 md:w-[49rem] md:text-[22px] text-[14px] text-[var(--talentmal-color-one)] leading-[140%] -tracking-[1px]">
+          <p className="mt-3 lg:mt-7 md:w-[49rem] md:text-[22px] text-[14px] text-[var(--talentmal-color-one)] leading-[140%] lg:-tracking-[1px]">
             Welcome to TalentMAL, where talent meets opportunity. Whether you're
             a forward-thinking employer seeking top-notch freelancers or a
             skilled professional looking for exciting projects, we've got you
@@ -37,13 +37,13 @@ const HomePage = () => {
 
           <div className="mt-3 lg:mt-6 flex flex-col lg:flex-row lg:items-center lg:gap-2">
             <img src={PeopleIcon} alt="" className="w-[78px]" />
-            <p className="text-[12px] lg:text-[14px] -tracking-[0.5px] leading-[100%] md:leading-none mt-3 lg:mt-0">
+            <p className="text-[12px] lg:text-[14px] lg:-tracking-[0.5px] leading-[100%] md:leading-none mt-3 lg:mt-0">
               Join over 10k+ freelancers and recruiters experiencing the power
               of TalentMAL
             </p>
           </div>
 
-          <button className="w-full mt-6 bg-[var(--talentmal-color-three)] text-white md:hidden flex items-center justify-center gap-2 py-3 px-7 rounded-full hover:scale-105 active:bg-[#818181] duration-300 text-[14px] md:text-[16px]">
+          <button className="w-full mt-6 bg-[var(--talentmal-color-three)] text-white md:hidden flex items-center justify-center gap-2 py-3 px-7 rounded-full hover:scale-[1.01] active:bg-[#818181] duration-300 text-[14px] md:text-[16px]">
             Join TalentMAL
             <img src={DiamondIcon} alt="" className="w-[20px] lg:w-[24px]" />
           </button>
@@ -63,11 +63,11 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section className="mt-[3rem] lg:mt-[6rem] px-2">
+      <section className="mt-[3rem] lg:mt-[6rem] px-4">
         <Logos />
       </section>
 
-      <section className="mt-[3rem] lg:mt-[6rem] px-2">
+      <section className="mt-[3rem] lg:mt-[6rem] px-4">
         <Offer />
       </section>
 
@@ -83,7 +83,7 @@ const HomePage = () => {
         <Community />
       </section>
 
-      <div className="container mx-auto px-2">
+      <div className="container mx-auto px-4">
         <section className="mt-[3rem] lg:mt-[6rem]">
           <FAQ />
         </section>

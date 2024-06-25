@@ -8,7 +8,7 @@ const Offer = () => {
     <main className="">
       <section className="lg:w-[67rem] mx-auto">
         <h1 className="lg:text-center text-[32px] md:text-[64px] font-bold md:font-black -tracking-[3px] text-[var(--talentmal-color-one)]">What we offer.</h1>
-        <p className="lg:text-center text-[14px] md:text-[24px] text-[var(--talentmal-color-one)] leading-[140%] -tracking-[1px]">
+        <p className="lg:text-center text-[14px] md:text-[24px] text-[var(--talentmal-color-one)] leading-[140%] lg:-tracking-[1px]">
           TalentMAL, offers streamlined talent acquisition and project management
           for businesses, while we connects top-tier talent with exciting
           opportunities, increased visibility and networking.
