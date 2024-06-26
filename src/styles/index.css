@@ -38,9 +38,7 @@ p {
 
 .scroll-container {
   display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
+  gap: 3rem;
 }
 
 .scroll-container img {
@@ -53,7 +51,34 @@ p {
 }
 
 @media (max-width: 768px) {
+  .scroll-container {
+    gap: 1rem; 
+  }
   .scroll-container img {
     width: 3rem;
+  }
+  .slidex {
+    animation: slide 15000ms linear infinite;
+  }
+}
+
+@media (min-width: 769px) {
+  .scroll-container img {
+    width: 6rem;
+  }
+}
+
+/* ANIMATION */
+
+
+
+
+
+@keyframes slide {
+  0% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(-60%);
   }
 }
