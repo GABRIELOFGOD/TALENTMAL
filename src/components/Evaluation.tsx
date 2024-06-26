@@ -19,10 +19,10 @@ const Evaluation = () => {
         </div>
 
         <div>
-          <h1 className="md:text-center text-[32px] md:text-[44px] lg:text-[48px] font-medium lg:font-black text-[var(--talentmal-color-one)] -tracking-[2.5px] lg:-tracking-[3px] leading-[130%] mt-[1rem] lg:mb-[2rem] mb-[1rem]">
+          <h1 className="md:text-center text-[32px] md:text-[44px] lg:text-[48px] font-medium lg:font-black text-[var(--talentmal-color-one)] -tracking-[1.5px] lg:-tracking-[2px] leading-[130%] mt-[1rem] lg:mb-[2rem] mb-[1rem]">
             Our Process for Evaluating Talent.
           </h1>
-          <p className="md:text-center lg:text-[24px] md:text-[18px] text-[14px] md:-tracking-[1px] leading-[130%]">
+          <p className="md:text-center lg:text-[24px] md:text-[18px] text-[14px] tracking-wide leading-[130%]">
             At TalentMal, we tailor our matching process just for you. It's all
             about flexibility and adaptability, ensuring we find the perfect fit
             that suits your unique needs.

@@ -21,7 +21,7 @@ const Footer = () => {
               </p>
             </Link>
             <p className="text-xl font-normal text-[#c4c4c4]">
-              No 1 Ilofa road GRA, Ilorin, Kwara state
+              No 1 Ilofa Road GRA, Ilorin, Kwara State.
             </p>
           </div>
 
@@ -31,7 +31,7 @@ const Footer = () => {
               Connect with us
             </p>
             <Link to="mailto:hello@talentmal.org" className="text-[#c4c4c4]">
-              mail hello@talentmal.org
+              hello@talentmal.org
             </Link>
             <Link to="tel:+2347038251963" className="text-[#c4c4c4]">
               +2347038251963
@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
 
           {/*  */}
-          <div className="flex flex-col gap-4 text-[18px] font-medium text-white">
+          <div className="flex flex-col gap-4 text-[18px] font-medium text-white tracking-wide">
             <Link to="employer">For Recruiter</Link>
             <Link to="freelancer">For Freelancer</Link>
           </div>
@@ -70,8 +70,8 @@ const Footer = () => {
             <p className="font-semibold text-[22px] text-white">
               Join our talent pool
             </p>
-            <p className="text-[18px] font-medium text-[#c4c4c4]">
-              Get started...
+            <p className="text-[18px] font-medium text-[#c4c4c4] tracking-wide">
+              Get started.
             </p>
             <div className="flex w-full">
               <input

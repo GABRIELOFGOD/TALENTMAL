@@ -54,7 +54,7 @@ const Navbar = () => {
       <div className="flex items-center gap-5 text-xs md:text-[17px]">
         <button
           onClick={() => setNavShow(false)}
-          className="bg-[var(--talentmal-color-two)] text-white py-2 px-5 rounded-full hover:scale-105 active:bg-[#818181] duration-300"
+          className="bg-[var(--talentmal-color-two)] text-white py-2 px-5 md:py-4 md:px-7 rounded-full hover:scale-105 active:bg-[#818181] duration-300"
         >
           <Link to="/">Place a call</Link>
         </button>

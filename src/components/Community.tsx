@@ -2,10 +2,10 @@ import WifiIcon from "../assets/icons/wifi-02.svg";
 
 const Community = () => {
   return (
-    <main className="h-[27.25rem] bg-black text-white flex flex-col justify-center">
-      <div className="flex items-center justify-center gap-1 border rounded-full md:w-[12rem] px-4 lg:px-0 py-2 lg:py-0 mx-auto">
+    <main className="h-[27.25rem] bg-black text-white flex flex-col justify-center cursor-default">
+      <div className="flex items-center justify-center gap-1 border rounded-full md:w-[15rem] px-4 md:px-0 py-2 md:py-1 mx-auto">
         <img src={WifiIcon} alt="" className="w-[20px]" />
-        <p className="md:text-[17px]">Our community</p>
+        <p className="md:text-[22px] tracking-wide">Our community</p>
       </div>
 
       <div className="flex flex-col items-center justify-center mt-[2rem]">
@@ -18,7 +18,7 @@ const Community = () => {
           oppourtunities quickly and <br /> seamlessly.
         </h2>
 
-        <p className="text-[20px] md:text-[22px] text-center mt-[2rem]">
+        <p className="text-[20px] md:text-[22px] text-center mt-[2rem] tracking-wide">
           Join our community
         </p>
       </div>
