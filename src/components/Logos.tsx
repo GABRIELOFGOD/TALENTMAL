@@ -11,12 +11,12 @@ import Icon10 from "../assets/logos/icon10.svg";
 
 const Logos = () => {
   return (
-    <main className="w-full mx-auto">
+    <main className="max-w-7xl mx-auto">
       <h2 className="text-[23px] tracking-[1px] text-center">
         HIRE EXPERTS IN
       </h2>
 
-      <section className="scroll-container mt-10">
+      <section className="scroll-container mt-10 slidex overflow-hidden">
         <img src={Icon1} alt="" className="w-[4.7rem] " />
         <img src={Icon2} alt="" className="w-[4.7rem] " />
         <img src={Icon3} alt="" className="w-[4.7rem] " />
