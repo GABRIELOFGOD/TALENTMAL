@@ -11,14 +11,14 @@ const Accordion: React.FC<AccordionProps> = ({ number, title, content }) => {
 
   return (
     <div
-      className={`p-2 my-2 cursor-pointer bg-[var(--talentmal-color-six)] ${
+      className={`p-2 my-2 cursor-pointer bg-[#f9f9f9] rounded-[12px] ${
         isOpen ? "bg-opacity-75" : "bg-opacity-100"
-      } shadow-md rounded-md`}
+      }`}
       onClick={() => setIsOpen(!isOpen)}
     >
       <div className="md:text-[18px] leading-[20px] relative flex justify-between items-center p-2">
         <div className="flex items-center gap-12">
-          <p className="border bg-black text-white p-1 rounded">{number}</p>
+          <p className="border bg-black text-white p-1 rounded-[5px]">{number}</p>
 
           <h2>{title}</h2>
         </div>
@@ -34,8 +34,8 @@ const Accordion: React.FC<AccordionProps> = ({ number, title, content }) => {
           {isOpen ? (
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="28"
-              height="28"
+              width="22"
+              height="22"
               viewBox="0 0 24 24"
               fill="none"
               style={{
@@ -55,8 +55,8 @@ const Accordion: React.FC<AccordionProps> = ({ number, title, content }) => {
           ) : (
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="28"
-              height="28"
+              width="22"
+              height="22"
               viewBox="0 0 24 24"
               fill="none"
               style={{

@@ -24,16 +24,20 @@ const FAQ: React.FC = () => {
   return (
     <main>
       <section>
-        <h1 className="text-[32px] font-medium lg:text-[56px] leading-[120%] -tracking-[2px]">FAQs</h1>
-        <p className="text-[18px] leading-[130%] -tracking-[1px] text-[var(--talentmal-color-three)] my-3">
+        <h1 className="text-[32px] font-medium md:text-[48px] lg:text-[56px] leading-[120%]">FAQs</h1>
+        <p className="text-[18px] md:text-[24px] leading-[130%] text-[var(--talentmal-color-three)] my-3">
           If you don’t find any question you’re looking for. You can send us
           your question
         </p>
-        <button className="border text-[16px] lg:text-[17px] text-[var(--talentmal-color-nine)] px-4 py-2 rounded-full">SEND US A QUESTION</button>
+        <button className="border text-[16px] md:text-[17px] text-[var(--talentmal-color-nine)] px-4 py-2 rounded-full">SEND US A QUESTION</button>
       </section>
 
       {/* ACCORDION DIV */}
+<<<<<<< HEAD
       <section className="w-full mt-[2rem] space-y-4 lg:space-y-0">
+=======
+      <section className="w-full mt-[2rem] flex flex-col gap-y-2 ">
+>>>>>>> 2c287cd211be8aa645e725c016551c519a711158
         <Accordion
           number="01"
           title="If you don’t find any question you’re looking for. You can send us your question?"
