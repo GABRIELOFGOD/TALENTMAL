@@ -5,18 +5,13 @@ import WhyJoinCard from '../components/WhyJoinCard'
 const Employer = () => {
   return (
     <div className=" py-10">
-<<<<<<< HEAD
       <div className="flex flex-col md:flex-row md:px-28 px-10 py-10 gap-10">
         <div className="">
-=======
-      <div className="flex flex-col md:flex-row px-10 py-10 justify-between">
-        <div className="max-w-[944px]">
->>>>>>> 2c287cd211be8aa645e725c016551c519a711158
           <p className="text-black w-fit font-normal md:text-[12px] text-[10px] mb-5 rounded-full py-2 px-4 bg-bgGray bg-opacity-10">over 3 million ready-to-work creatives</p>
-          <p className="lg:text-[56px] md:text-[48px] text-[32px] leading-[35.2px] font-semibold tracking-tighter mb-5 md:leading-[61.6px]">For first time founders and experienced business leaders</p>
-          <p className="text-light tracking-tighter text-[14px] md:text-[18px] lg:text-2xl">Find the perfect match for your project needs with our diverse pool of skilled freelancers. From developers to designers unleash the potential of our curated talent network. Say goodbye to recruitment hassles and hello to seamless collaboration.</p>
+          <p className="md:text-[56px] text-[32px] leading-[35.2px] font-semibold tracking-tighter mb-5 md:leading-[61.6px]">For first time founders and experienced business leaders</p>
+          <p className="text-light tracking-tighter text-[14px] md:text-2xl">Find the perfect match for your project needs with our diverse pool of skilled freelancers. From developers to designers unleash the potential of our curated talent network. Say goodbye to recruitment hassles and hello to seamless collaboration.</p>
         </div>
-        <div className=""><img className="h-full w-[664px] my-auto" src="/images/employer.png" alt="" /></div>
+        <div className="h-full w-full my-auto"><img className="h-full my-auto" src="/images/employer.png" alt="" /></div>
       </div>
       <div className="w-full py-10 px-10 flex md:px-28 flex-col justify-between">
         <div className='py-5'>
