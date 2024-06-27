@@ -13,7 +13,7 @@ import FrameTwo from "../src/assets/homepage/Frame2.svg";
 const HomePage = () => {
   return (
     <main className="container mx-auto">
-      <section className="md:flex md:items-center w-full mt-10 px-4">
+      <section className="md:flex md:items-center max-w-[100rem] mt-10 px-4">
         <div className="md:w-3/5">
           <p className="text-[12px] md:text-[18px] bg-[var(--talentmal-color-four)] w-[15.1rem] md:w-[20rem] tracking-[0.005em] text-center rounded-full py-1">
             Over 3 million ready-to-work creative

@@ -52,7 +52,7 @@ p {
 
 @media (max-width: 768px) {
   .scroll-container {
-    gap: 1rem; 
+    gap: 1rem;
   }
   .scroll-container img {
     width: 3rem;
@@ -70,10 +70,6 @@ p {
 
 /* ANIMATION */
 
-
-
-
-
 @keyframes slide {
   0% {
     transform: translateX(20%);
@@ -82,3 +78,8 @@ p {
     transform: translateX(-60%);
   }
 }
+
+.sliding-cards {
+  animation: slide 15000ms linear infinite;
+}
+

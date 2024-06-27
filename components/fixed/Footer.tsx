@@ -9,9 +9,9 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
-      <div className="flex flex-col w-full gap-8 p-10 bg-[#232323] mt-[5rem]">
+      <div className="flex flex-col w-full gap-8 md:p-10 p-4 bg-[#232323] mt-[5rem]">
         <div className="flex flex-col md:flex-row justify-between items-start">
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 mb-[1.5rem] md:mb-0">
             <Link className="flex gap-2 my-auto" to="/">
               <div className="my-auto w-12 h-12">
                 <img className="w-full h-full" src="/images/logo.png" alt="" />
@@ -20,20 +20,20 @@ const Footer = () => {
                 TalentMal
               </p>
             </Link>
-            <p className="text-xl font-normal text-[#c4c4c4]">
+            <p className="md:text-xl font-normal text-[#c4c4c4]">
               No 1 Ilofa Road GRA, Ilorin, Kwara State.
             </p>
           </div>
 
           {/*  */}
-          <div className="font-normal text-xl flex flex-col gap-4">
-            <p className="text-[22px] font-semibold text-white">
+          <div className="font-normal text-xl flex flex-col gap-3 md:gap-4 mb-[1.5rem] md:mb-0">
+            <p className="text-[20px] md:text-[22px] font-semibold text-white md:tracking-wide">
               Connect with us
             </p>
-            <Link to="mailto:hello@talentmal.org" className="text-[#c4c4c4]">
+            <Link to="mailto:hello@talentmal.org" className="text-[#c4c4c4] text-[14px] md:text-base">
               hello@talentmal.org
             </Link>
-            <Link to="tel:+2347038251963" className="text-[#c4c4c4]">
+            <Link to="tel:+2347038251963" className="text-[#c4c4c4] text-[14px] md:text-base">
               +2347038251963
             </Link>
 
@@ -60,17 +60,17 @@ const Footer = () => {
           </div>
 
           {/*  */}
-          <div className="flex flex-col gap-4 text-[18px] font-medium text-white tracking-wide">
+          <div className="flex flex-col gap-4 md:text-[18px] font-medium text-white tracking-wide mb-[1.5rem] md:mb-0">
             <Link to="employer">For Recruiter</Link>
             <Link to="freelancer">For Freelancer</Link>
           </div>
 
           {/*  */}
-          <div className="flex flex-col gap-4">
-            <p className="font-semibold text-[22px] text-white">
+          <div className="flex flex-col gap-4 w-full md:w-auto">
+            <p className="font-semibold text-[20px] md:text-[22px] text-white md:tracking-wide">
               Join our talent pool
             </p>
-            <p className="text-[18px] font-medium text-[#c4c4c4] tracking-wide">
+            <p className="md:text-[18px] font-medium text-[#c4c4c4] tracking-wide">
               Get started.
             </p>
             <div className="flex w-full">
