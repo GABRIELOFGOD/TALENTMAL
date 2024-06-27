@@ -8,7 +8,7 @@ const Navbar = () => {
   
   return (
     <main className="flex items-center justify-between sticky top-0 left-0 w-full bg-white z-50 md:px-10 md:py-5 px-6 py-3 shadow-md">
-      <Link className="flex gap-2 my-auto" to="/">
+      <Link onClick={()=>setNavShow(false)} className="flex gap-2 my-auto" to="/">
         <div className="my-auto w-8 h-8 md:w-12 md:h-12">
           <img className="w-full h-full" src="/images/logo.png" alt="" />
         </div>

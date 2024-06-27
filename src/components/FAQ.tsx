@@ -33,11 +33,7 @@ const FAQ: React.FC = () => {
       </section>
 
       {/* ACCORDION DIV */}
-<<<<<<< HEAD
-      <section className="w-full mt-[2rem] space-y-4 lg:space-y-0">
-=======
-      <section className="w-full mt-[2rem] flex flex-col gap-y-2 ">
->>>>>>> 2c287cd211be8aa645e725c016551c519a711158
+      <section className="w-full mt-[2rem] flex flex-col md:gap-y-2 ">
         <Accordion
           number="01"
           title="If you don’t find any question you’re looking for. You can send us your question?"

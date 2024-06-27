@@ -12,7 +12,7 @@ import FrameTwo from "../src/assets/homepage/Frame2.svg";
 
 const HomePage = () => {
   return (
-    <main className="container mx-auto py-10">
+    <main className="container mx-auto md:py-10">
       <section className="md:flex md:items-center w-full mt-10 px-2">
         <div className="md:w-3/5">
           <p className="text-[12px] bg-[var(--talentmal-color-four)] w-[15.1rem] text-center rounded-full py-1">
