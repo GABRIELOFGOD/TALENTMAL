@@ -12,13 +12,13 @@ import FrameTwo from "../src/assets/homepage/Frame2.svg";
 
 const HomePage = () => {
   return (
-    <main className="container mx-auto">
+    <main className="container mx-auto md:py-10">
       <section className="md:flex md:items-center w-full mt-10 px-2">
         <div className="md:w-3/5">
           <p className="text-[12px] bg-[var(--talentmal-color-four)] w-[15.1rem] text-center rounded-full py-1">
             over 3 million ready-to-work creative
           </p>
-          <h1 className="hidden md:block mt-7 lg:text-[93px] text-[var(--talentmal-color-five)] font-black w-[58.8rem] leading-[110%] -tracking-[8px]">
+          <h1 className="hidden md:block lg:text-[82px] text-[var(--talentmal-color-five)] font-black leading-[110%] -tracking-[8px]">
             Unlocking <br /> Potentials: Connect, <br /> Collaborate, Create
           </h1>
           <h1 className="mt-3 lg:mt-7 md:hidden text-[37px] text-[var(--talentmal-color-five)] font-black leading-[38px] -tracking-[3.2px] w-full">
@@ -50,20 +50,24 @@ const HomePage = () => {
         </div>
 
         <div className="w-2/5 hidden lg:flex relative">
-          <img
-            src={FrameOne}
-            alt="image-one"
-            className="w-[21.5rem] pt-[4rem]"
-          />
-          <img
-            src={FrameTwo}
-            alt="image-two"
-            className="w-[21.5rem] absolute left-[16.8rem]"
-          />
+          <div>
+            <img
+              src={FrameOne}
+              alt="image-one"
+              className="w-[21.5rem] pt-[4rem]"
+            />
+          </div>
+          <div>
+            <img
+              src={FrameTwo}
+              alt="image-two"
+              className="w-[21.5rem] absolute left-[16.8rem]"
+            />
+          </div>
         </div>
       </section>
 
-      <section className="mt-[3rem] lg:mt-[6rem] px-2">
+      <section className="mt-[3rem] w-full lg:mt-[6rem] px-2">
         <Logos />
       </section>
 

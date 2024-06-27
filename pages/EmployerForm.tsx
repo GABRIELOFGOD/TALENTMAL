@@ -4,10 +4,10 @@ import { GoRocket } from 'react-icons/go'
 const EmployerForm = () => {
   return (
     <div>
-      <div className='freelance-form h-fit flex px-10 flex-col justify-between items-center py-16'>
+      <div className='freelance-form h-fit md:px-28 flex px-10 flex-col justify-between items-center py-16'>
         <p className='md:text-[56px] text-[32px] leading-[38.4px] text-white md:leading-[72.8px] text-center md:w-[1127px] font-normal'>Secure talented professionals at competitive rates</p>
       </div>
-      <div className="flex px-10 py-10 flex-col gap-20">
+      <div className="flex px-10 md:px-28 py-10 flex-col gap-20">
         <div className="flex flex-col md:grid md:grid-cols-2 gap-10">
           <div className="flex flex-col gap-5">
             <p className="text-primary md:text-[50px] text-[32px] font-extrabold">Hire Talent</p>

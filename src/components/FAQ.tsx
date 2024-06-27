@@ -33,7 +33,7 @@ const FAQ: React.FC = () => {
       </section>
 
       {/* ACCORDION DIV */}
-      <section className="w-full mt-[2rem] space-y-5 lg:space-y-0">
+      <section className="w-full mt-[2rem] space-y-4 lg:space-y-0">
         <Accordion
           number="01"
           title="If you don’t find any question you’re looking for. You can send us your question?"
