@@ -26,6 +26,16 @@ const FreelancerForm = () => {
             Help Us Match You with the Perfect Opportunities by Providing Your
             Employment Details
           </p>
+          {/* <div className='freelance-form h-fit flex px-10 flex-col justify-between items-center py-16'>
+        <p className='md:text-[56px] text-[32px] leading-[38.4px] text-white md:leading-[72.8px] text-center md:w-[1127px] font-normal'>Join our amazing community and find yourself at the center of oppourtunities</p>
+      </div>
+      <div className="flex md:px-28 px-8 py-10 flex-col gap-10 md:gap-20">
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-10">
+          <div className="flex flex-col gap-5">
+            <p className="text-primary md:text-[50px] text-[32px] font-extrabold">Join Our Community</p>
+            <p className="text-2xl font-normal text-light">Help Us Match You with the Perfect Opportunities by Providing Your Employment Details</p>
+          </div>
+          <div></div> */}
         </div>
       </section>
 
