@@ -39,35 +39,35 @@ const EmployerForm = () => {
                 Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap
                 maker algorand algorand holo elrond.{" "}
               </p>
-              {*/ <div className='freelance-form h-fit md:px-28 flex px-10 flex-col justify-between items-center py-16'>
-        <p className='md:text-[56px] text-[32px] leading-[38.4px] text-white md:leading-[72.8px] text-center md:w-[1127px] font-normal'>Secure talented professionals at competitive rates</p>
-      </div>
-      <div className="flex px-10 md:px-28 py-10 flex-col gap-20">
-        <div className="flex flex-col md:grid md:grid-cols-2 gap-10">
-          <div className="flex flex-col gap-5">
-            <p className="text-primary md:text-[50px] text-[32px] font-extrabold">Hire Talent</p>
-            <p className="md:text-2xl text-[18px] font-normal text-light">Help Us Match You with the Perfect Opportunities by Providing Your Employment Details</p>
-          </div>
-          <div></div>
-        </div>
-        <div className="flex flex-col md:grid md:grid-cols-2 gap-10">
-          <div>
-            <p className="md:text-[40px] text-[32px] font-[600] text-primary">What's this for?</p>
-            <p className="md:text-2xl text-[18px] font-normal text-light">Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. </p>
-          </div>
-          <div className='flex flex-col gap-5'>
-            <div className="flex gap-3">
-              <p className="text-[18px] font-medium my-auto text-primary">1/5</p>
-              <p className="md:text-[40px] text-[32px] font-[600] text-primary">Your Personal Information</p>
+              {/* <div className='freelance-form h-fit md:px-28 flex px-10 flex-col justify-between items-center py-16'> */}
+              <p className='md:text-[56px] text-[32px] leading-[38.4px] text-white md:leading-[72.8px] text-center md:w-[1127px] font-normal'>Secure talented professionals at competitive rates</p>
             </div>
-            <div className='flex flex-col md:grid md:grid-cols-2 gap-5'>
-              <input placeholder='First Name' className='rounded-md border border-neutral-500 px-3 w-full h-10' type="text" />
-              <input placeholder='Last Name' className='rounded-md border border-neutral-500 px-3 w-full h-10' type="text" />
-              <input placeholder='Email' className='rounded-md border border-neutral-500 px-3 w-full h-10' type="text" />
-              <input placeholder='Phone number' className='rounded-md border border-neutral-500 px-3 w-full h-10' type="text" />
-            </div>
-          </div>
-        </div>
+            <div className="flex px-10 md:px-28 py-10 flex-col gap-20">
+              <div className="flex flex-col md:grid md:grid-cols-2 gap-10">
+                <div className="flex flex-col gap-5">
+                  <p className="text-primary md:text-[50px] text-[32px] font-extrabold">Hire Talent</p>
+                  <p className="md:text-2xl text-[18px] font-normal text-light">Help Us Match You with the Perfect Opportunities by Providing Your Employment Details</p>
+                </div>
+                <div></div>
+              </div>
+              <div className="flex flex-col md:grid md:grid-cols-2 gap-10">
+                <div>
+                  <p className="md:text-[40px] text-[32px] font-[600] text-primary">What's this for?</p>
+                  <p className="md:text-2xl text-[18px] font-normal text-light">Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. </p>
+                </div>
+                <div className='flex flex-col gap-5'>
+                  <div className="flex gap-3">
+                    <p className="text-[18px] font-medium my-auto text-primary">1/5</p>
+                    <p className="md:text-[40px] text-[32px] font-[600] text-primary">Your Personal Information</p>
+                  </div>
+                  <div className='flex flex-col md:grid md:grid-cols-2 gap-5'>
+                    <input placeholder='First Name' className='rounded-md border border-neutral-500 px-3 w-full h-10' type="text" />
+                    <input placeholder='Last Name' className='rounded-md border border-neutral-500 px-3 w-full h-10' type="text" />
+                    <input placeholder='Email' className='rounded-md border border-neutral-500 px-3 w-full h-10' type="text" />
+                    <input placeholder='Phone number' className='rounded-md border border-neutral-500 px-3 w-full h-10' type="text" />
+                  </div>
+                </div>
+              </div>
         {/* <div className="flex flex-col md:grid md:grid-cols-2 gap-10">
           <div>
             <p className="text-[40px] font-medium text-primary">What if i am unemployed?</p>
@@ -92,7 +92,7 @@ const EmployerForm = () => {
               <input placeholder='Years of Professional experience' className='rounded-md border border-neutral-500 px-3 w-full h-10' type="text" />
             </div>
           </div>
-        </div> */}
+        </div>
         <div className="flex flex-col md:grid md:grid-cols-2 gap-10">
           <div>
             <p className="md:text-[40px] text-[32px] font-[600] text-primary">Why does this matter?</p>
