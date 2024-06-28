@@ -17,156 +17,158 @@ import { TbCoins } from "react-icons/tb";
 import { FiBriefcase } from "react-icons/fi";
 import { FaCode } from "react-icons/fa";
 
-
 // =============== TYPES =================== //
 export type WhyJoinProp = {
-  icon: React.ReactNode,
-  title: string,
-  body: string
-}
+  icon: React.ReactNode;
+  title: string;
+  body: string;
+  className?: string;
+};
 
 export interface TesimonyProp {
   name: string;
   image: string;
   testimony: string;
-  position?: string
+  position?: string;
 }
 
 export type WhatDo = {
-  heading: string,
-  text: string
-}
+  heading: string;
+  text: string;
+};
 
 export const whyJoin: WhyJoinProp[] = [
   {
     icon: <IoBagOutline />,
-    title: 'High-end opportunities',
-    body: 'We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. '
+    title: "High-end Opportunities",
+    body: "We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. ",
   },
   {
     icon: <IoMdTrendingUp />,
-    title: 'Hiring Visibility',
-    body: 'We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. '
+    title: "Hiring Visibility",
+    body: "We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. ",
   },
   {
     icon: <GoPeople />,
-    title: 'Dedicated recruitment team',
-    body: 'We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. '
+    title: "Dedicated Recruitment Team",
+    body: "We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. ",
   },
   {
     icon: <TbBulb />,
-    title: 'Career growth oppourtunity',
-    body: 'We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. '
-  }
-  
-]
+    title: "Career Growth Oppourtunity",
+    body: "We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. ",
+  },
+];
 
 export const exployTalent: WhyJoinProp[] = [
   {
     icon: <RiHandCoinLine />,
-    title: 'Marketing',
-    body: 'We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. '
+    title: "Marketing",
+    body: "We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. ",
   },
   {
     icon: <RiShieldLine />,
-    title: 'Support',
-    body: 'We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. '
+    title: "Support",
+    body: "We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. ",
   },
   {
     icon: <TbCoins />,
-    title: 'Finance',
-    body: 'We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. '
+    title: "Finance",
+    body: "We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. ",
   },
   {
     icon: <RiBox3Line />,
-    title: 'Design',
-    body: 'We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. '
+    title: "Design",
+    body: "We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. ",
   },
   {
     icon: <FiBriefcase />,
-    title: 'Human Management',
-    body: 'We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. '
+    title: "Human Management",
+    body: "We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. ",
   },
   {
     icon: <FaCode />,
-    title: 'Development',
-    body: 'We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. '
-  }
-  
-]
+    title: "Development",
+    body: "We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. ",
+  },
+];
 
 export const talentPool: WhyJoinProp[] = [
   {
     icon: <FiUser />,
-    title: 'Create a profile',
-    body: 'We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. '
+    title: "Create a profile",
+    body: "We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. ",
   },
   {
     icon: <FiFileText />,
-    title: 'Complete vetting',
-    body: 'We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. '
+    title: "Complete vetting",
+    body: "We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. ",
   },
   {
     icon: <CgFolderRemove />,
-    title: 'Join our talent pool',
-    body: 'We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. '
-  }
-]
+    title: "Join our talent pool",
+    body: "We help companies build and manage remote teams worldwide. We take care of everything; hiring, onboarding, remuneration, regulation & even physical workspaces if required. ",
+  },
+];
 
 export const studentTestimony: TesimonyProp[] = [
   {
-    name: 'John Doe',
-    position: 'CEO Design Agency',
-    testimony: 'With our advisory services, we help employers figure out the type, quality & quantity of talent they need to achieve optimal productivity & success.',
-    image: '/images/young.jpg'
+    name: "John Doe",
+    position: "CEO Design Agency",
+    testimony:
+      "With our advisory services, we help employers figure out the type, quality & quantity of talent they need to achieve optimal productivity & success.",
+    image: "/images/young.jpg",
   },
   {
-    name: 'John Doe',
-    position: 'CEO Design Agency',
-    testimony: 'With our advisory services, we help employers figure out the type, quality & quantity of talent they need to achieve optimal productivity & success.',
-    image: '/images/young.jpg'
+    name: "John Doe",
+    position: "CEO Design Agency",
+    testimony:
+      "With our advisory services, we help employers figure out the type, quality & quantity of talent they need to achieve optimal productivity & success.",
+    image: "/images/young.jpg",
   },
   {
-    name: 'John Doe',
-    position: 'CEO Design Agency',
-    testimony: 'With our advisory services, we help employers figure out the type, quality & quantity of talent they need to achieve optimal productivity & success.',
-    image: '/images/young.jpg'
+    name: "John Doe",
+    position: "CEO Design Agency",
+    testimony:
+      "With our advisory services, we help employers figure out the type, quality & quantity of talent they need to achieve optimal productivity & success.",
+    image: "/images/young.jpg",
   },
   {
-    name: 'John Doe',
-    position: 'CEO Design Agency',
-    testimony: 'With our advisory services, we help employers figure out the type, quality & quantity of talent they need to achieve optimal productivity & success.',
-    image: '/images/young.jpg'
+    name: "John Doe",
+    position: "CEO Design Agency",
+    testimony:
+      "With our advisory services, we help employers figure out the type, quality & quantity of talent they need to achieve optimal productivity & success.",
+    image: "/images/young.jpg",
   },
-]
+];
 
 export const whatDoesOne: WhatDo[] = [
   {
-    heading: 'What\'s this for?',
-    text: 'Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. '
+    heading: "What's this for?",
+    text: "Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. ",
   },
   {
-    heading: 'What if i am unemployed?',
-    text: 'Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. '
+    heading: "What if i am unemployed?",
+    text: "Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. ",
   },
   {
-    heading: 'Why does this matter?',
-    text: 'Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. '
+    heading: "Why does this matter?",
+    text: "Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. ",
   },
   {
-    heading: 'Why does this matter?',
-    text: 'Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. '
+    heading: "Why does this matter?",
+    text: "Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. ",
   },
   {
-    heading: 'What is this for?',
-    text: 'Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. '
+    heading: "What is this for?",
+    text: "Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. ",
   },
   {
-    heading: 'What info do you need?',
-    text: 'Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. '
+    heading: "What info do you need?",
+    text: "Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. ",
   },
   {
-    heading: 'What happens next?',
-    text: 'Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. '
-  }
-]
+    heading: "What happens next?",
+    text: "Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap maker algorand algorand holo elrond. ",
+  },
+];
