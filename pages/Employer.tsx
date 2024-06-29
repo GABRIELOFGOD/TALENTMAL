@@ -30,6 +30,7 @@ const Employer = () => {
         </div>
       </div>
 
+<<<<<<< HEAD
       <div className='freelance-form gap-3 px-5 md:px-28 my-10 py-20 flex text-white flex-col justify-center items-center md:h-[300px]'>
         <p className="font-normal tracking-tighter text-[32px] text-center md:text-[56px]">Welcome to a new era of productivity</p>
         <p className="md:text-2xl text-[16px] tracking-tight md:w-[850px] text-center">Unlock access to a pool of exceptional talent ready to bring your vision to life. From seasoned professionals to rising stars, find the ideal fit for your projects and propel your business to new heights.</p>
@@ -41,6 +42,38 @@ const Employer = () => {
           <p className="text-black text-center md:text-start font-normal tracking-tight text-2xl"> In addition to the previously mentioned roles, TalentMAL also offers expertise in sourcing and vetting talent for various other positions. Our commitment to helping you find the right fit extends beyond the predefined categories. We understand that every business has unique needs, and we are dedicated to assisting you in finding the perfect candidate for your specific requirements.</p>
         </div>
         <div className="h-full w-full flex-1 my-auto"><img className="h-full w-full my-auto" src="/images/emlaptop.png" alt="" /></div>
+=======
+      <div className="freelance-form gap-3 px-5 mt-[4rem] py-20 flex text-white flex-col justify-center items-center md:h-[436px]">
+        <p className="font-normal tracking-wide text-[32px] leading-[41.6px] text-center md:text-[56px]">
+          Welcome to a New Era of Productivity
+        </p>
+        <p className="md:text-2xl text-[16px] tracking-wide md:w-[887px] my-3 text-center">
+          Unlock access to a pool of exceptional talent ready to bring your
+          vision to life. From seasoned professionals to rising stars, find the
+          ideal fit for your projects and propel your business to new heights.
+        </p>
+        <button className="rounded-full tracking-wide shadow-sm bg-[#343434] text-white py-2 px-6 mt-4 border border-white">
+          Start hiring
+        </button>
+      </div>
+
+      {/*  */}
+
+      <div className="max-w-[100rem] mx-auto mt-[4rem] px-4 md:px-0 flex flex-col md:flex-row md:gap-[7rem]">
+        <div className="md:my-auto md:w-1/2">
+          <p className="text-black text-center md:text-start font-normal text-[20px] md:text-2xl tracking-wide">
+             In addition to the previously mentioned roles, TalentMal also
+            offers expertise in sourcing and vetting talent for various other
+            positions. Our commitment to helping you find the right fit extends
+            beyond the predefined categories. We understand that every business
+            has unique needs, and we are dedicated to assisting you in finding
+            the perfect candidate for your specific requirements.
+          </p>
+        </div>
+        <div className="h-full md:w-1/2 mt-[4rem] my-auto">
+          <img className="my-auto" src="/images/emlaptop.png" alt="" />
+        </div>
+>>>>>>> parent of e22e12c (Merge branch 'master' into cynthia's-branch)
       </div>
 
       {/* <div className=''>

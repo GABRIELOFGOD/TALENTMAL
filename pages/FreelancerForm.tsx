@@ -4,6 +4,7 @@ import { GoRocket } from 'react-icons/go'
 const FreelancerForm = () => {
   return (
     <div>
+<<<<<<< HEAD
       <div className='freelance-form h-fit flex px-10 flex-col justify-between items-center py-16'>
         <p className='md:text-[56px] text-[32px] leading-[38.4px] text-white md:leading-[72.8px] text-center md:w-[1127px] font-normal'>Join our amazing community and find yourself at the center of oppourtunities</p>
       </div>
@@ -14,6 +15,29 @@ const FreelancerForm = () => {
             <p className="text-2xl font-normal text-light">Help Us Match You with the Perfect Opportunities by Providing Your Employment Details</p>
           </div>
           <div></div>
+=======
+      <section className="freelance-form gap-5 px-5 md:mt-[4rem] mt-[2rem] py-20 flex text-white flex-col justify-center items-center md:h-[436px]">
+        <button className="flex items-center justify-center gap-2 rounded-full tracking-wide shadow-sm bg-[#343434] text-white py-2 px-6 mt-4 border border-white">
+          <img src={WifiIcon} alt="" />
+          Our community
+        </button>
+        <p className="md:text-[56px] text-[28px] leading-[38.4px] text-white md:leading-[72.8px] md:max-w-[62.5rem] tracking-wide text-center font-normal">
+          Join our Amazing Community and Find Yourself at the Center of
+          Oppourtunities
+        </p>
+      </section>
+
+      {/*  */}
+      <section>
+        <div className="max-w-[100rem] mx-auto md:mt-[4rem] mt-[2rem] px-4 md:px-0">
+          <p className="text-primary md:text-[90px] md:text-start text-center text-[32px] font-extrabold tracking-[0.001em]">
+            Join Our Community
+          </p>
+          <p className="md:text-3xl text-[18px] font-normal md:text-start text-center mt-2 text-light tracking-[0.010em]">
+            Help Us Match You with the Perfect Opportunities by Providing Your
+            Employment Details
+          </p>
+>>>>>>> parent of e22e12c (Merge branch 'master' into cynthia's-branch)
         </div>
         <div className="flex flex-col md:grid md:grid-cols-2 gap-10">
           <div>

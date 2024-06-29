@@ -4,6 +4,7 @@ import { GoRocket } from 'react-icons/go'
 const EmployerForm = () => {
   return (
     <div>
+<<<<<<< HEAD
       <div className='freelance-form h-fit md:px-28 flex px-10 flex-col justify-between items-center py-16'>
         <p className='md:text-[56px] text-[32px] leading-[38.4px] text-white md:leading-[72.8px] text-center md:w-[1127px] font-normal'>Secure talented professionals at competitive rates</p>
       </div>
@@ -67,6 +68,42 @@ const EmployerForm = () => {
             <div className="flex gap-3">
               <p className="text-[18px] font-medium my-auto text-primary">2/5</p>
               <p className="md:text-[40px] text-[32px] font-[600] text-primary">Employment Information</p>
+=======
+      <div className="freelance-form gap-5 px-5 md:mt-[4rem] mt-[2rem] py-20 flex text-white flex-col justify-center items-center md:h-[436px]">
+        <button className="flex items-center justify-center gap-2 rounded-full tracking-wide shadow-sm bg-[#343434] text-white py-2 px-6 mt-4 border border-white">
+          <img src={DiamondIcon} alt="" />
+          Hire Talents
+        </button>
+        <p className="md:text-[56px] text-[32px] leading-[38.4px] text-white md:leading-[72.8px] md:max-w-[62.5rem] tracking-wide text-center font-normal">
+          Secure Talented Professionals at Competitive Rates
+        </p>
+      </div>
+
+      {/*  */}
+
+      <div className="max-w-[100rem] mx-auto md:mt-[4rem] mt-[2rem] px-4 md:px-0">
+        <p className="text-primary md:text-[90px] md:text-start text-center text-[32px] font-extrabold tracking-[0.001em]">
+          Hire Talent
+        </p>
+        <p className="md:text-3xl text-[18px] font-normal md:text-start text-center mt-2 text-light tracking-[0.010em]">
+          Help Us Match You with the Perfect Opportunities by Providing Your
+          Employment Details
+        </p>
+      </div>
+
+      {/* FORM STARTS HERE.... */}
+      <form>
+        <div className="max-w-[100rem] mx-auto mt-[2rem] md:mt-[4rem] px-4 md:px-0">
+          <section className="w-full md:flex md:gap-[6rem]">
+            <div className="md:w-1/2">
+              <p className="md:text-[40px] text-[28px] md:text-start text-center font-[600] text-primary tracking-[0.002em]">
+                What's this for?
+              </p>
+              <p className="md:text-2xl text-base md:text-start text-center font-normal text-light tracking-[0.005em]">
+                Crypto ipsum bitcoin ethereum dogecoin litecoin. PancakeSwap
+                maker algorand algorand holo elrond.{" "}
+              </p>
+>>>>>>> parent of e22e12c (Merge branch 'master' into cynthia's-branch)
             </div>
             <div className="flex flex-col gap-5">
               <div className='flex flex-col md:grid md:grid-cols-2 gap-5'>
