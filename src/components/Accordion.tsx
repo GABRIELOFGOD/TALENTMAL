@@ -11,13 +11,13 @@ const Accordion: React.FC<AccordionProps> = ({ number, title, content }) => {
 
   return (
     <div
-      className={`md:p-2 p-1 my-2 cursor-pointer bg-[#f9f9f9] rounded-[12px] ${
-        isOpen ? "bg-[#f9f9f9]" : ""
+      className={`p-2 my-2 cursor-pointer bg-[#f9f9f9] rounded-[12px] ${
+        isOpen ? "bg-opacity-75" : "bg-opacity-100"
       }`}
       onClick={() => setIsOpen(!isOpen)}
     >
       <div className="md:text-[18px] leading-[20px] relative flex justify-between items-center p-2">
-        <div className="flex items-center md:gap-12 gap-4">
+        <div className="flex items-center gap-12">
           <p className="border bg-black text-white p-1 rounded-[5px]">{number}</p>
 
           <h2>{title}</h2>
